@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- الثيم الأساسي للتطبيق -->
+
+
+    <!-- 🚀 ثيم شاشة البداية (Splash Screen Theme) -->
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen">
+        <!-- لون خلفية شاشة البداية -->
+        <item name="windowSplashScreenBackground">@color/splash_background</item>
+
+        <!-- الأيقونة التي تظهر في المنتصف (يمكنك استخدام أيقونة التطبيق نفسها) -->
+        <item name="windowSplashScreenAnimatedIcon">@mipmap/ic_launcher</item>
+
+        <!-- الثيم الذي ينقل إليه التطبيق فور انتهاء الـ Splash -->
+        <item name="postSplashScreenTheme">@style/Theme.NotesApplication</item>
+    </style>
+</resources>

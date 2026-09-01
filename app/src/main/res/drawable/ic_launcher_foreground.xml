@@ -1,0 +1,26 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Outer Card Background -->
+    <path
+        android:fillColor="#6750A4"
+        android:pathData="M24,14h60c5.52,0 10,4.48 10,10v60c0,5.52 -4.48,10 -10,10H24c-5.52,0 -10,-4.48 -10,-10V24c0,-5.52 4.48,-10 10,-10z" />
+    
+    <!-- Paper Sheet -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M32,26h44c3.31,0 6,2.69 6,6v44c0,3.31 -2.69,6 -6,6H32c-3.31,0 -6,-2.69 -6,-6V32c0,-3.31 2.69,-6 6,-6z" />
+    
+    <!-- Note Lines -->
+    <path
+        android:fillColor="#E8DEF8"
+        android:pathData="M38,38h32v4H38z M38,48h32v4H38z M38,58h22v4H38z" />
+        
+    <!-- Checkmark Badge -->
+    <path
+        android:fillColor="#D0BCFF"
+        android:pathData="M66,60l4,4l8,-8l3,3l-11,11l-7,-7z" />
+</vector>
